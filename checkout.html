@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout | AgapeFragrance</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Paystack -->
+<script src="https://js.paystack.co/v1/inline.js"></script>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">AgapeFragrance</div>
+
+  <!-- Nav Links -->
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Hamburger -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<!-- ================= PAYMENT STATUS BANNER ================= -->
+<div id="payment-banner" class="payment-banner">
+  ⚠️ Online payment (Paystack) is currently unavailable. Please complete your order via WhatsApp.
+</div>
+
+<!-- ================= CHECKOUT SECTION ================= -->
+<section class="checkout-page">
+
+  <h1>Checkout</h1>
+
+  <!-- ================= CUSTOMER FORM ================= -->
+  <form id="checkout-form">
+
+    <input type="text" placeholder="Full Name" required>
+
+    <input type="text" placeholder="Phone Number" required>
+
+    <input type="text" placeholder="Delivery Address" required>
+
+    <button type="submit">Place Order</button>
+
+  </form>
+
+  <!-- ================= ORDER SUMMARY ================= -->
+  <div id="order-summary"></div>
+
+  <!-- ================= PAYSTACK BUTTON ================= -->
+  <button id="pay-now-btn" style="display:none;">
+    Pay Now
+  </button>
+
+  <!-- ================= WHATSAPP FALLBACK ================= -->
+  <div id="payment-fallback" style="display:none; margin-top:15px;">
+
+    <p>⚠️ Online payment is temporarily unavailable.</p>
+
+    <a id="whatsapp-link"
+       target="_blank"
+       style="display:inline-block; padding:10px 15px; background:#25D366; color:white; text-decoration:none; border-radius:5px;">
+      Complete Order on WhatsApp
+    </a>
+
+  </div>
+
+</section>
+
+<!-- ================= SCRIPT ================= -->
+<script src="checkout.js"></script>
+
+</body>
+</html>

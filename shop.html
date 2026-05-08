@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop | AgapeFragrance</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">AgapeFragrance</div>
+
+  <!-- Nav Links -->
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Hamburger -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+
+<section class="shop-page">
+  <h1>Shop Our Fragrances</h1>
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <label>Category:</label>
+    <select id="category-filter">
+      <option value="All">All</option>
+      <option value="Men">Men</option>
+      <option value="Women">Women</option>
+      <option value="Unisex">Unisex</option>
+    </select>
+  </div>
+
+  <div class="product-grid" id="shop-products"></div>
+</section>
+
+<script src="shop.js"></script>
+
+</body>
+</html>
