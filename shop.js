@@ -26,7 +26,7 @@ const products = [
   {name: "24K Roll on", price:"₦1,000", category:"Unisex", image:"24k.jpg"},
   {name: "VC Body Oil",price:"₦2,000", category:"Women", image:"body oil.jpg" },
   {name: "Masculine Combo", price:"₦8,500", category:"Men", image:"Masculine.jpg" },
-  {name: "Feminine Combo", price:"8,000", category:"Women", image:"feminine.jpg"},
+  {name: "Feminine Combo", price:"₦8,000", category:"Women", image:"feminine.jpg"},
   {name: "Masculine Combo", price:"₦8,000", category:"Men", image:"mas.jpg"}
 ];
 
