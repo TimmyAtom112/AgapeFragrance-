@@ -18,11 +18,16 @@ const products = [
   {name:"Unisex Combo", price:"₦12,500", category:"Unisex", image:"img15.jpg"},
   {name: "50ml Rave Parfum Spray",price:"₦8,500", category:"Women", image:"img16.jpg" },
   {name: "GK men Perfume", price:"₦3,000", category:"Men", image:"img17.jpg" },
-  { name: "Mini Cocktail Perfume", price:"₦4,500", category:"Unisex", image:"img18.jpg"},
+  {name: "Mini Cocktail Perfume", price:"₦4,500", category:"Unisex", image:"img18.jpg"},
   {name: "50ml Ameer Al Oud",price:"₦10,000", category:"Women", image:"img20.jpg" },
   {name: "Tag Rollon", price:"₦1,500", category:"Unisex", image:"img21.jpg" },
   {name: "Fuse Spray", price:"3,000", category:"Men", image:"img23.jpg"},
-  { name: "30ml Cocktail Intense Perfume", price:"₦5,000", category:"Women", image:"img22.jpg"}
+  {name: "30ml Cocktail Intense Perfume", price:"₦5,000", category:"Women", image:"img22.jpg"},
+  {name: "24K Roll on", price:"₦1,000", category:"Unisex", image:"24k.jpg"},
+  {name: "VC Body Oil",price:"₦2,000", category:"Women", image:"body oil.jpg" },
+  {name: "Masculine Combo", price:"₦8,500", category:"Men", image:"Masculine.jpg" },
+  {name: "Feminine Combo", price:"8,000", category:"Women", image:"feminine.jpg"},
+  {name: "Masculine Combo", price:"₦8,000", category:"Men", image:"mas.jpg"}
 ];
 
 const shopContainer = document.getElementById("shop-products");
