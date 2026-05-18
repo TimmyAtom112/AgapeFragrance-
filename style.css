@@ -39,6 +39,20 @@ body {
   color: #d4af37;
 }
 
+/* NOTICE SECTION */
+.notice{
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.notice p{
+  margin: 0;
+}
+
 /* NAV LINKS */
 .nav-links {
   display: flex;
